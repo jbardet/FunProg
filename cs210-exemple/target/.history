@@ -1,0 +1,7 @@
+compile
+test
+q
+quit
+exit
+testOnly -- "--tests=.*max of a few.*"
+console

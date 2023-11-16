@@ -1,0 +1,31 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E129] Potential Issue Warning: C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\src\main\scala\objsets\TweetSet.scala:140:11 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m140 |[0m      [33melse[0m [33mthis[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |           [33m^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |A pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading TweetSet 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\target\scala-0.27\classes\objsets\TweetSet 2.class' has location not matching its contents: contains class objsets.TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading TweetList 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\target\scala-0.27\classes\objsets\TweetList 2.class' has location not matching its contents: contains class objsets.TweetList[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Tweet 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\target\scala-0.27\classes\objsets\Tweet 2.class' has location not matching its contents: contains class objsets.Tweet[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading NonEmpty 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\target\scala-0.27\classes\objsets\NonEmpty 2.class' has location not matching its contents: contains class objsets.NonEmpty[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Nil 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\target\scala-0.27\classes\objsets\Nil 2.class' has location not matching its contents: contains class objsets.Nil[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Main 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\target\scala-0.27\classes\objsets\Main 2.class' has location not matching its contents: contains class objsets.Main[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading GoogleVsApple 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\target\scala-0.27\classes\objsets\GoogleVsApple 2.class' has location not matching its contents: contains class objsets.GoogleVsApple[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Empty 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\target\scala-0.27\classes\objsets\Empty 2.class' has location not matching its contents: contains class objsets.Empty[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Cons 2$,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\target\scala-0.27\classes\objsets\Cons 2.class' has location not matching its contents: contains class objsets.Cons[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\Users\james\Documents\cs210\functional_programing_scala\cs210-objsets\src\main\scala\objsets\TweetSet.scala:138:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m138 |[0m    that.foreach([36mtweet[0m =>[0m
+[0m[[0m[31merror[0m] [0m[0m    |    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |    Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m    |    Required: objsets.TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m[31m139 |[0m      [33mif[0m ![33mthis[0m.contains(tweet) [33mthen[0m [33mthis[0m.incl(tweet)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m140 |[0m      [33melse[0m [33mthis[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m

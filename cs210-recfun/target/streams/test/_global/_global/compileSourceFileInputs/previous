@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"0.27.0-RC1":{"hashes":[["C:\\Users\\james\\Documents\\cs210\\functional_programing_scala\\cs210-recfun\\src\\test\\scala\\recfun\\RecFunSuite.scala","0e5acd08cf66449c11067d4de931f08cc03e1b6d"]],"lastModifiedTimes":[]}}]

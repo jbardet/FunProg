@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"3.0.0-M1":{"hashes":[["C:\\Users\\james\\Documents\\cs210\\functional_programing_scala\\cs210-interpreter\\src\\test\\scala\\interpreter\\RecursiveLanguageSuite.scala","f0721b8fcb1d4f7f307d6e99a91e44cb147ba682"]],"lastModifiedTimes":[]}}]

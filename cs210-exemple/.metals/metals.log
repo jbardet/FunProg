@@ -1,0 +1,371 @@
+2023.05.26 20:54:57 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-exemple' for client Visual Studio Code 1.78.2.
+May 26, 2023 8:54:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 26, 2023 8:54:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 26, 2023 8:54:57 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 26, 2023 8:54:59 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\james\Documents\cs210\functional_programing_scala\cs210-exemple\.metals\metals (H2 2.1)
+May 26, 2023 8:54:59 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+May 26, 2023 8:54:59 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.182s)
+May 26, 2023 8:54:59 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+May 26, 2023 8:54:59 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+May 26, 2023 8:54:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+May 26, 2023 8:54:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+May 26, 2023 8:54:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+May 26, 2023 8:55:00 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+May 26, 2023 8:55:00 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.343s)
+2023.05.26 20:55:00 INFO  time: initialize in 3.53s
+2023.05.26 20:55:02 WARN  Build server is not auto-connectable.
+2023.05.26 20:55:05 INFO  running 'C:\Users\james\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\james\AppData\Local\Temp\metals8946274755406678531\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.05.26 20:55:30 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 1.8.0_292)
+2023.05.26 20:55:40 INFO  [info] loading settings for project cs210-exemple-build-build-build from metals.sbt ...
+2023.05.26 20:55:42 INFO  [info] loading project definition from C:\Users\james\Documents\cs210\functional_programing_scala\cs210-exemple\project\project\project
+2023.05.26 20:56:01 INFO  [info] loading settings for project cs210-exemple-build-build from metals.sbt ...
+2023.05.26 20:56:01 INFO  [info] loading project definition from C:\Users\james\Documents\cs210\functional_programing_scala\cs210-exemple\project\project
+2023.05.26 20:56:25 INFO  [success] Generated .bloop\cs210-exemple-build-build.json
+2023.05.26 20:56:25 INFO  [success] Total time: 24 s, completed May 26, 2023 8:56:26 PM
+2023.05.26 20:56:31 INFO  [info] loading settings for project cs210-exemple-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2023.05.26 20:56:31 INFO  [info] loading project definition from C:\Users\james\Documents\cs210\functional_programing_scala\cs210-exemple\project
+2023.05.26 20:56:43 INFO  [success] Generated .bloop\cs210-exemple-build.json
+2023.05.26 20:56:45 INFO  [success] Total time: 13 s, completed May 26, 2023 8:56:45 PM
+2023.05.26 20:56:54 INFO  [info] loading settings for project cs210-exemple from assignment.sbt,build.sbt ...
+2023.05.26 20:56:54 INFO  [info] set current project to progfun1-example (in build file:/C:/Users/james/Documents/cs210/functional_programing_scala/cs210-exemple/)
+2023.05.26 20:57:00 INFO  [success] Generated .bloop\cs210-exemple-test.json
+2023.05.26 20:57:00 INFO  [success] Generated .bloop\cs210-exemple.json
+2023.05.26 20:57:00 INFO  [success] Total time: 4 s, completed May 26, 2023 8:57:00 PM
+2023.05.26 20:57:01 INFO  time: ran 'sbt bloopInstall' in 1m55s
+2023.05.26 20:57:01 INFO  Attempting to connect to the build server...
+2023.05.26 20:57:01 INFO  Setting up current java home C:\Users\james\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 in C:\Users\james\.bloop\bloop.json
+2023.05.26 20:57:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\james\Documents\cs210\functional_programing_scala\cs210-exemple\.metals\bsp.trace.json or C:\Users\james\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.26 20:57:46 INFO  Attempting to connect to the build server...
+2023.05.26 20:57:46 INFO  Bloop uses C:\Users\james\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\james\.bloop\bloop.json
+2023.05.26 20:57:46 INFO  Attempting to connect to the build server...
+2023.05.26 20:57:46 INFO  Bloop uses C:\Users\james\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\james\.bloop\bloop.json
+2023.05.26 20:57:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\james\Documents\cs210\functional_programing_scala\cs210-exemple\project\project\.metals\bsp.trace.json or C:\Users\james\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.26 20:57:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\james\Documents\cs210\functional_programing_scala\cs210-exemple\project\.metals\bsp.trace.json or C:\Users\james\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.05.26 20:57:54 INFO  time: Connected to build server in 52s
+2023.05.26 20:57:54 INFO  Connected to Build server: Bloop v1.5.6
+2023.05.26 20:57:54 INFO  time: Imported build in 0.87s
+2023.05.26 20:58:09 ERROR Failed to fetch mtags for 0.27.0-RC1
+Error downloading org.scalameta:mtags_0.27.0-RC1:0.11.12
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+2023.05.26 20:58:10 INFO  compiling cs210-exemple (1 scala source)
+2023.05.26 20:58:12 ERROR Failed to fetch mtags for 0.27.0-RC1
+Error downloading org.scalameta:mtags_0.27.0-RC1:0.11.12
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+2023.05.26 20:58:12 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 20:58:14 ERROR Failed to fetch mtags for 0.27.0-RC1
+Error downloading org.scalameta:mtags_0.27.0-RC1:0.11.12
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+2023.05.26 20:58:14 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:14 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 20:58:14 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:14 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:20 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:20 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:20 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:20 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:20 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:20 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:23 ERROR issues while parsing: C:\Users\james\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\epfl\lamp\dotty-library_0.27\0.27.0-RC1\dotty-library_0.27-0.27.0-RC1-sources.jar
+scala.meta.tokenizers.TokenizeException: jar:file:///C:/Users/james/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/lamp/dotty-library_0.27/0.27.0-RC1/dotty-library_0.27-0.27.0-RC1-sources.jar!/scala/quoted/Liftable.scala:52: error: unclosed character literal
+      '{ ClassTag[T](${Expr(ct.runtimeClass.asInstanceOf[Class[T]])}) }
+      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:520)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:310)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:53)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:41)
+	at scala.meta.internal.mtags.Mtags.toplevels(Mtags.scala:33)
+	at scala.meta.internal.mtags.SymbolIndexBucket.indexSource(SymbolIndexBucket.scala:128)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceFile(SymbolIndexBucket.scala:105)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$2(SymbolIndexBucket.scala:67)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$1(SymbolIndexBucket.scala:65)
+	at scala.meta.internal.io.PlatformFileIO$.withJarFileSystem(PlatformFileIO.scala:87)
+	at scala.meta.internal.io.FileIO$.withJarFileSystem(FileIO.scala:44)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceJar(SymbolIndexBucket.scala:63)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJar$2(OnDemandSymbolIndex.scala:83)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:128)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJar(OnDemandSymbolIndex.scala:82)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:593)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:448)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:439)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:438)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:438)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$22(Indexer.scala:358)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21(Indexer.scala:351)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21$adapted(Indexer.scala:347)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:347)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:147)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:147)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.05.26 20:58:23 ERROR issues while parsing: C:\Users\james\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scalameta\munit_0.27\0.7.12\munit_0.27-0.7.12-sources.jar
+scala.meta.tokenizers.TokenizeException: jar:file:///C:/Users/james/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/munit_0.27/0.7.12/munit_0.27-0.7.12-sources.jar!/munit/internal/MacroCompat.scala:17: error: unclosed character literal
+    '{ new Location(${Expr(path)}, ${Expr(startLine)}) }
+    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:520)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:310)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:53)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:41)
+	at scala.meta.internal.mtags.Mtags.toplevels(Mtags.scala:33)
+	at scala.meta.internal.mtags.SymbolIndexBucket.indexSource(SymbolIndexBucket.scala:128)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceFile(SymbolIndexBucket.scala:105)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$2(SymbolIndexBucket.scala:67)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$addSourceJar$1(SymbolIndexBucket.scala:65)
+	at scala.meta.internal.io.PlatformFileIO$.withJarFileSystem(PlatformFileIO.scala:87)
+	at scala.meta.internal.io.FileIO$.withJarFileSystem(FileIO.scala:44)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addSourceJar(SymbolIndexBucket.scala:63)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$addSourceJar$2(OnDemandSymbolIndex.scala:83)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.tryRun(OnDemandSymbolIndex.scala:128)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.addSourceJar(OnDemandSymbolIndex.scala:82)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:593)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:448)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:439)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:438)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:438)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$22(Indexer.scala:358)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21(Indexer.scala:351)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21$adapted(Indexer.scala:347)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:347)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:147)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:147)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.05.26 20:58:31 INFO  time: indexed workspace in 36s
+2023.05.26 20:58:31 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:31 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 20:58:44 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:44 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 20:58:44 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:44 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 20:58:46 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:46 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 20:58:46 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:46 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 20:58:48 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:48 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 20:58:53 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 20:58:53 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 21:00:34 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 21:00:34 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 21:00:55 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 21:00:55 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 21:00:55 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 21:00:55 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 21:01:01 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 21:01:01 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 21:01:04 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 21:01:04 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 21:01:07 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 21:01:07 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 21:01:19 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 21:01:19 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 21:01:19 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 21:01:19 WARN  unsupported Scala 0.27.0-RC1
+May 26, 2023 9:01:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+2023.05.26 21:01:19 INFO  No mtags for 0.27.0-RC1.
+2023.05.26 21:01:19 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 22:25:28 ERROR Failed to fetch mtags for 0.27.0-RC1
+Error downloading org.scalameta:mtags_0.27.0-RC1:0.11.12
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+2023.05.26 22:25:28 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 23:41:39 ERROR Failed to fetch mtags for 0.27.0-RC1
+Error downloading org.scalameta:mtags_0.27.0-RC1:0.11.12
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+2023.05.26 23:41:39 WARN  unsupported Scala 0.27.0-RC1
+2023.05.26 23:56:58 ERROR Failed to fetch mtags for 0.27.0-RC1
+Error downloading org.scalameta:mtags_0.27.0-RC1:0.11.12
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+2023.05.26 23:56:58 WARN  unsupported Scala 0.27.0-RC1
+May 26, 2023 11:56:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+2023.05.28 19:26:25 ERROR Failed to fetch mtags for 0.27.0-RC1
+Error downloading org.scalameta:mtags_0.27.0-RC1:0.11.12
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+2023.05.28 19:26:25 WARN  unsupported Scala 0.27.0-RC1
+2023.05.29 07:53:24 ERROR Failed to fetch mtags for 0.27.0-RC1
+Error downloading org.scalameta:mtags_0.27.0-RC1:0.11.12
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: C:\Users\james\.ivy2\local\org.scalameta\mtags_0.27.0-RC1\0.11.12\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_0.27.0-RC1/0.11.12/mtags_0.27.0-RC1-0.11.12.pom
+2023.05.29 07:53:24 WARN  unsupported Scala 0.27.0-RC1
+2023.05.29 07:53:36 INFO  Shutting down server
+2023.05.29 07:53:36 INFO  shutting down Metals
+May 29, 2023 7:53:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:348)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:348)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:285)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:150)
+	at scala.meta.internal.metals.MetalsLspService.shutdown(MetalsLspService.scala:1067)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:224)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.ensureWriteOpen(SocketChannelImpl.java:269)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:460)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 40 more
+
+2023.05.29 07:53:36 INFO  Cancelling compilation on Bloop server
+2023.05.29 07:53:36 INFO  Cancelling compilation on Bloop server
+2023.05.29 07:53:36 INFO  Cancelling compilation on Bloop server
+2023.05.29 07:53:36 INFO  Cancelling compilation on Bloop server
+2023.05.29 07:53:36 INFO  Cancelling compilation on Bloop server
+2023.05.29 07:53:36 INFO  Cancelling compilation on Bloop server
+2023.05.29 07:53:36 INFO  Cancelling compilation on Bloop server
+2023.05.29 07:53:36 ERROR Unexpected error initializing server: 
+java.lang.UnsupportedOperationException
+	at org.eclipse.lsp4j.services.LanguageClient.refreshSemanticTokens(LanguageClient.java:193)
+	at scala.meta.internal.metals.clients.language.ConfiguredLanguageClient.refreshSemanticTokens(ConfiguredLanguageClient.scala:101)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onWorksheetChanged$4(MetalsLspService.scala:2658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2023.05.29 07:53:36 INFO  Exiting server

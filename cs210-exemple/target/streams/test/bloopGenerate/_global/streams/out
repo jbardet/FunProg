@@ -1,0 +1,4 @@
+[debug] [cs210-exemple-test] Classpath dependencies List()
+[debug] [cs210-exemple-test] Dependencies from configurations List(cs210-exemple)
+[debug] Bloop wrote the configuration of project 'cs210-exemple-test' to 'C:\Users\james\Documents\cs210\functional_programing_scala\cs210-exemple\.bloop\cs210-exemple-test.json'
+[success] Generated .bloop\cs210-exemple-test.json

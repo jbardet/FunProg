@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\Users\james\Documents\cs210\functional_programing_scala\cs210-recfun\src\main\scala\recfun\RecFun.scala:25:20 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m25 |[0m      [33mif[0m acc<[31m0[0m [33mthen[0m False[0m
+[0m[[0m[31merror[0m] [0m[0m   |                    [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                    Not found: False[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

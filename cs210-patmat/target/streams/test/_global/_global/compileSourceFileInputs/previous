@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"0.27.0-RC1":{"hashes":[["C:\\Users\\james\\Documents\\cs210\\functional_programing_scala\\cs210-patmat\\src\\test\\scala\\patmat\\HuffmanSuite.scala","52d60c411f5116467e904284904428adf5a90b18"]],"lastModifiedTimes":[]}}]
